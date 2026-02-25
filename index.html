@@ -1,0 +1,204 @@
+<!doctype html>
+<html lang="uk">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Чути Зараз — слухові апарати Oticon та Bernafon у Києві</title>
+  <meta name="description" content="Підбір і продаж слухових апаратів Oticon та Bernafon. Безкоштовна консультація, налаштування під аудіограму, розстрочка до 6 місяців без %, гарантія 12 місяців." />
+  <meta property="og:title" content="Чути Зараз — слухові апарати Oticon та Bernafon" />
+  <meta property="og:description" content="Безкоштовна консультація. Налаштування під аудіограму. Розстрочка до 6 місяців без %. Гарантія 12 місяців." />
+  <meta property="og:type" content="website" />
+  <link rel="icon" href="/assets/logo.png" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <header class="header">
+    <div class="container header__inner">
+      <a class="brand" href="#top">
+        <img class="brand__logo" src="assets/logo.png" alt="Чути Зараз" />
+        <span class="brand__name" data-i18n="brandName">Чути Зараз</span>
+      </a>
+
+      <nav class="nav">
+        <a href="#oticon" data-i18n="navOticon">Oticon</a>
+        <a href="#bernafon" data-i18n="navBernafon">Bernafon</a>
+        <a href="#reviews" data-i18n="navReviews">Відгуки</a>
+        <a href="#contacts" data-i18n="navContacts">Контакти</a>
+      </nav>
+
+      <div class="header__actions">
+        <div class="lang">
+          <button class="lang__btn" data-lang="uk" aria-label="Українська">UA</button>
+          <button class="lang__btn" data-lang="ru" aria-label="Русский">RU</button>
+        </div>
+        <a class="btn btn--primary" href="#form" data-i18n="ctaHeader">Записатися</a>
+      </div>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="container hero__grid">
+        <div class="hero__content">
+          <p class="badge" data-i18n="badge">Знижка 30% на весь асортимент</p>
+          <h1 data-i18n="heroTitle">Підбір і продаж слухових апаратів Oticon та Bernafon у Києві</h1>
+          <p class="hero__subtitle" data-i18n="heroSubtitle">
+            Безкоштовна консультація. Налаштування під вашу аудіограму. Розстрочка до 6 місяців без %. Гарантія 12 місяців.
+          </p>
+
+          <ul class="hero__bullets">
+            <li data-i18n="b1">Налаштування при покупці під аудіограму</li>
+            <li data-i18n="b2">Розстрочка до 6 місяців без %</li>
+            <li data-i18n="b3">Гарантія 12 місяців: обмін на новий при заводському браку</li>
+          </ul>
+
+          <div class="hero__buttons">
+            <a class="btn btn--primary" href="#form" data-i18n="ctaHero">Отримати безкоштовну консультацію</a>
+            <a class="btn btn--ghost" href="#oticon" data-i18n="ctaCatalog">Перейти до каталогу</a>
+          </div>
+
+          <div class="hero__contact">
+            <span data-i18n="phoneLabel">Телефон / месенджери:</span>
+            <a href="tel:+380633646566">+380 63 364 6566</a>
+          </div>
+        </div>
+
+        <div class="hero__card">
+          <h3 data-i18n="heroCardTitle">Як це працює</h3>
+          <ol class="steps">
+            <li data-i18n="s1">Залишаєте заявку</li>
+            <li data-i18n="s2">Безкоштовно консультуємо</li>
+            <li data-i18n="s3">Підбираємо модель під потреби</li>
+            <li data-i18n="s4">Налаштовуємо під аудіограму</li>
+          </ol>
+          <p class="muted" data-i18n="heroCardNote">
+            Особиста зустріч у Києві. Доставку можемо узгодити окремо.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="oticon">
+      <div class="container">
+        <div class="section__head">
+          <h2 data-i18n="oticonTitle">Каталог Oticon</h2>
+          <p class="muted" data-i18n="catalogNote">Ціни зі знижкою 30%. Доступна розстрочка до 6 місяців без %.</p>
+        </div>
+        <div id="oticonGrid" class="grid"></div>
+      </div>
+    </section>
+
+    <section class="section" id="bernafon">
+      <div class="container">
+        <div class="section__head">
+          <h2 data-i18n="bernafonTitle">Каталог Bernafon</h2>
+          <p class="muted" data-i18n="catalogNote2">Ціни зі знижкою 30%. Доступна розстрочка до 6 місяців без %.</p>
+        </div>
+        <div id="bernafonGrid" class="grid"></div>
+      </div>
+    </section>
+
+    <section class="section section--soft" id="reviews">
+      <div class="container">
+        <div class="section__head">
+          <h2 data-i18n="reviewsTitle">Відгуки</h2>
+          <p class="muted" data-i18n="reviewsNote">Реальні історії клієнтів після підбору та налаштування.</p>
+        </div>
+        <div id="reviewsGrid" class="reviews"></div>
+      </div>
+    </section>
+
+    <section class="section" id="guarantee">
+      <div class="container">
+        <div class="cards">
+          <div class="infoCard">
+            <h3 data-i18n="serviceTitle">Налаштування при покупці</h3>
+            <p data-i18n="serviceText">
+              Налаштовуємо слуховий апарат(и) під вашу аудіограму та пояснюємо, як користуватися.
+            </p>
+          </div>
+          <div class="infoCard">
+            <h3 data-i18n="installmentTitle">Розстрочка без %</h3>
+            <p data-i18n="installmentText">
+              Оформлення розстрочки до 6 місяців без відсотків. Деталі уточнюйте під час консультації.
+            </p>
+          </div>
+          <div class="infoCard">
+            <h3 data-i18n="warrantyTitle">Гарантія 12 місяців</h3>
+            <p data-i18n="warrantyText">
+              У разі заводського браку — обмінюємо на новий слуховий апарат (за умов правильної експлуатації).
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--soft" id="contacts">
+      <div class="container contacts">
+        <div>
+          <h2 data-i18n="contactsTitle">Контакти</h2>
+          <p class="muted" data-i18n="contactsNote">Київ. Безкоштовна консультація. Напишіть або залиште заявку.</p>
+
+          <div class="contactLine">
+            <span data-i18n="contactsPhone">Телефон / месенджери:</span>
+            <a href="tel:+380633646566">+380 63 364 6566</a>
+          </div>
+
+          <div class="contactLine">
+            <span data-i18n="contactsMeet">Формат:</span>
+            <span data-i18n="contactsMeetText">особиста зустріч у Києві (доставку можемо узгодити)</span>
+          </div>
+        </div>
+
+        <div class="formCard" id="form">
+          <h3 data-i18n="formTitle">Записатися на безкоштовну консультацію</h3>
+          <form id="leadForm" class="form">
+            <input type="text" name="name" placeholder="Ім’я" data-i18n-placeholder="phName" required />
+            <input type="tel" name="phone" placeholder="Телефон" data-i18n-placeholder="phPhone" required />
+            <select name="brand">
+              <option value="Не знаю" data-i18n="brandUnknown">Не знаю</option>
+              <option value="Oticon">Oticon</option>
+              <option value="Bernafon">Bernafon</option>
+            </select>
+            <textarea name="comment" rows="4" placeholder="Коментар (за бажанням)" data-i18n-placeholder="phComment"></textarea>
+
+            <!-- honeypot -->
+            <input type="text" name="company" class="hp" tabindex="-1" autocomplete="off" />
+
+            <button class="btn btn--primary" type="submit" data-i18n="formSubmit">Відправити</button>
+            <p class="form__note" data-i18n="formNote">
+              Натискаючи “Відправити”, ви погоджуєтеся на зв’язок з вами для консультації.
+            </p>
+            <p class="form__status" id="formStatus" role="status" aria-live="polite"></p>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Sticky button -->
+  <a class="stickyCta" href="#form" data-i18n="stickyCta">Записатися</a>
+
+  <!-- Scroll popup -->
+  <div class="popup" id="scrollPopup" aria-hidden="true">
+    <div class="popup__inner">
+      <button class="popup__close" id="popupClose" aria-label="Close">×</button>
+      <div class="popup__text">
+        <strong data-i18n="popupTitle">Безкоштовна консультація</strong>
+        <span class="muted" data-i18n="popupText">Залиште заявку — підберемо модель і підкажемо по бюджету.</span>
+      </div>
+      <a class="btn btn--primary btn--small" href="#form" id="popupBtn" data-i18n="popupBtn">Записатися</a>
+    </div>
+  </div>
+
+  <footer class="footer">
+    <div class="container footer__inner">
+      <span>© <span id="year"></span> <span data-i18n="brandName">Чути Зараз</span></span>
+      <span class="muted" data-i18n="footerNote">Oticon • Bernafon • Київ</span>
+    </div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
